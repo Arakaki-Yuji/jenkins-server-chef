@@ -1,0 +1,13 @@
+DEPENDENCIES
+  docker
+    path: site-cookbooks/docker
+  jenkins
+    path: site-cookbooks/jenkins
+  yum-epel
+
+GRAPH
+  docker (0.1.0)
+  jenkins (0.1.0)
+  yum (3.5.2)
+  yum-epel (0.6.0)
+    yum (~> 3.0)

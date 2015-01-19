@@ -1,0 +1,13 @@
+{
+  "run_list": [
+    "recipe[yum-epel]",
+    "recipe[docker]",
+    "recipe[jenkins]"
+  ],
+  "jenkins": {
+    "hostname": "jenkins-server.com"
+  },
+  "automatic": {
+    "ipaddress": "192.168.33.30"
+  }
+}
